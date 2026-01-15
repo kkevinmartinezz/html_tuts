@@ -3,34 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS testing</title>
-  <style>
-      strong { /*only applied to elements inside strong tag*/
-        color: #7117ba;
-	    background-color: #000000;
-      }
-      body { /*changed applied to WHOLE WEBSITE body*/
-          background-color: #7b74dc;
-          color: #c8bebe; /* red */
-          font-family: cursive;
-          font-size: 24pt;
-      }
-      #header { /*creating a id called header, meant for mainly 1 thing*/
-          width: 100%;
-          height: 100px;
-      }
-      .red { /*creating a class called red, can be used for multiple elements*/
-          background-color: #ff0000;
-      }
-      #content {
-          letter-spacing: 5px;
-      }
-
-  </style>
+    <link rel="stylesheet" href="css_code.css">
 </head>
 
 <body>
 <div id="header">
     <h1>Welcome to my Webpage!</h1>
+</div>
+<div id="main">
+    <div id="sidebar">
+        <p>SideBAr Stuff will this be</p>
+    </div>
 </div>
 <div id="content">
     <p>I'm learning HTML and CSS!</p>
