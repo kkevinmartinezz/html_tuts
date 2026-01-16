@@ -1,0 +1,40 @@
+div { /*little debugging code that adds a border too all div', just to help show borders during building portion*/
+    border: 1px solid #000000;
+}
+* { /*people think this should be default*/
+  box-sizing: border-box; /*tell the computer to always use the width we set, and add the padding inside of that instead of in addition to that.*/
+}
+#sidebar a { /*only a's within the sidebar id*/
+  display: block; /*block = each link will exist in own row*/
+}
+#container {
+    display: flex; /*this will display elements in container side by side*/
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sidebar {
+    width: 200px;
+}
+
+#content {
+    width: 600px;
+}
+
+#header {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#footer {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#header, #footer, #sidebar, #content { /*shortcut to add for multiple sections*/
+  padding: 20px; /*space between the borders and content of each div*/
+}
