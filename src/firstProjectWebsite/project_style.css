@@ -1,9 +1,14 @@
 div { /*little debugging code that adds a border too all div', just to help show borders during building portion*/
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 * { /*people think this should be default*/
   box-sizing: border-box; /*tell the computer to always use the width we set, and add the padding inside of that instead of in addition to that.*/
 }
+
+body {
+    background-color: #cbbda1;
+}
+
 #sidebar a { /*only a's within the sidebar id*/
   display: block; /*block = each link will exist in own row*/
 }
@@ -15,10 +20,12 @@ div { /*little debugging code that adds a border too all div', just to help show
 }
 #sidebar {
     width: 200px;
+    background-color: #8f8176;
 }
 
 #content {
     width: 600px;
+    background-color: #e8d0b9;
 }
 
 #header {
@@ -26,6 +33,7 @@ div { /*little debugging code that adds a border too all div', just to help show
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background-color: #db9f65;
 }
 
 #footer {
@@ -33,6 +41,7 @@ div { /*little debugging code that adds a border too all div', just to help show
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background-color: #534538;
 }
 
 #header, #footer, #sidebar, #content { /*shortcut to add for multiple sections*/
